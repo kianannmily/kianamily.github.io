@@ -1,0 +1,13 @@
+modules = ["nodejs-20", "web"]
+run = "live-server"
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
+
+[[ports]]
+localPort = 8238
+externalPort = 3003
